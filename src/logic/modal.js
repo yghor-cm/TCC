@@ -87,11 +87,10 @@ const styles = StyleSheet.create({
     color: "#a83a32",
   },
   loginBtn: {
-    flex: 1,
     width: "60%",
     backgroundColor: "#805C5C",
     borderRadius: 25,
-    height: "20%",
+    height: 40,
     alignItems: "center",
     justifyContent: "center",
     marginTop: 10,

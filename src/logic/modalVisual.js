@@ -54,10 +54,11 @@ const VisualModal = ({ isVisible, onClose, id, name, price, date, createdAt, typ
 
 const styles = StyleSheet.create({
   inputView: {
+    alignItems: "center",
     width: "80%",
     backgroundColor: "white",
     borderRadius: 25,
-    height: 50,
+    height: 40,
     marginBottom: 20,
     justifyContent: "center",
     padding: 20,
@@ -71,30 +72,10 @@ const styles = StyleSheet.create({
     elevation: 6,
   },
   inputText: {
+    marginTop: 20,
+    justifyContent: "center",
     height: 50,
     color: "#a83a32",
-  },
-  loginBtn: {
-    flex: 1,
-    width: "60%",
-    backgroundColor: "#805C5C",
-    borderRadius: 25,
-    height: "20%",
-    alignItems: "center",
-    justifyContent: "center",
-    marginTop: 10,
-    marginBottom: 10,
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 3,
-    },
-    shadowOpacity: 0.27,
-    shadowRadius: 4.65,
-    elevation: 6,
-  },
-  loginText: {
-    color: "white"
   },
 });
 
