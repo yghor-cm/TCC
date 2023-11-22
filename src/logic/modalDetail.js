@@ -70,6 +70,7 @@ const DetailModal = ({ isVisible, onClose, id, name, price, date, createdAt, typ
           style={styles.inputText}
           placeholder="Nome"
           autoCompleteType="username"
+          placeholderTextColor="#a83a32"
           value={user.name}
           onChangeText={(value) => handleChangeText(value, "name")}
         />
@@ -80,6 +81,7 @@ const DetailModal = ({ isVisible, onClose, id, name, price, date, createdAt, typ
           style={styles.inputText}
           placeholder="Valor"
           autoCompleteType="price"
+          placeholderTextColor="#a83a32"
           value={user.price}
           onChangeText={(value) => handleChangeText(value, "price")}
         />

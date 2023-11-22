@@ -51,10 +51,10 @@ const NetworthModal = ({ isVisible, onClose, userId }) => {
         </TouchableOpacity>
         <Text style={{fontWeight: 'bold', fontSize: 15, paddingBottom: 10}}>Nova Renda</Text>
         <View style={styles.inputView}>
-        <TextInput style={styles.inputText} placeholder="Nome" onChangeText={(value) => handleChangeText(value, "name")}/>
+        <TextInput style={styles.inputText} placeholder="Nome" placeholderTextColor="#a83a32" onChangeText={(value) => handleChangeText(value, "name")}/>
         </View>
         <View style={styles.inputView}>
-        <TextInput style={styles.inputText} placeholder="Valor" keyboardType="numeric" onChangeText={(value) => handleChangeText(value, "price")}/>
+        <TextInput style={styles.inputText} placeholder="Valor" placeholderTextColor="#a83a32" keyboardType="numeric" onChangeText={(value) => handleChangeText(value, "price")}/>
         </View>
         <TouchableOpacity style={styles.loginBtn} onPress={() => saveNewUser()}>
         <Text style={styles.loginText}>Adicionar</Text>
